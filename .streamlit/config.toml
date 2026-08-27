@@ -1,0 +1,15 @@
+[server]
+# Disable static file serving (no static folder needed)
+enableStaticServing = false
+
+[client]
+# Keep local-only developer controls out of the user-facing product shell.
+toolbarMode = "minimal"
+
+[theme]
+base = "light"
+primaryColor = "#176b5b"
+backgroundColor = "#f6f5f1"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#17201d"
+font = "sans-serif"

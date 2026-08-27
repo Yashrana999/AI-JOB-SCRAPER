@@ -1,0 +1,36 @@
+# Source control and local tooling
+.git
+.github
+.idea
+.vscode
+.venv
+.ruff_cache
+.pytest_cache
+.coverage*
+htmlcov
+__pycache__
+*.py[cod]
+*.egg-info
+
+# Secrets and machine-local state
+.env
+.env.*
+!.env.example
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.log
+backups
+dbdata
+
+# Development-only inputs
+AGENTS.md
+CLAUDE*.md
+docs
+examples
+scripts
+tests
+Dockerfile*
+docker-compose*.yml
